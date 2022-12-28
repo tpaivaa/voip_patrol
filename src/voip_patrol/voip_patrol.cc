@@ -1244,7 +1244,7 @@ int main(int argc, char **argv){
 	std::string log_fn = "";
 	std::string log_test_fn = "results.json";
 	int port = 5070;
-	int log_level_console = 2;
+	int log_level_console = 0;
 	int log_level_file = 10;
 	Config config(log_test_fn);
 	bool tcp_only = false;
